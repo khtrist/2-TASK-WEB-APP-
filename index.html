@@ -13,13 +13,22 @@
 <body >
     <h3 style ="background-color: rgb(111, 65, 65); width: 30%;padding: 15px; text-align: center; margin:0 auto;" >WEB APP</h3>
     <h4 style ="background-color: rgb(111, 65, 65); width: 30%;padding: 15px; text-align: center; margin:0 auto;" >REGISTER ACCOUNT</h4>
-    <form style ="background-color: rgb(51, 56, 56); width: 30%;padding: 15px; text-align: center; margin:0 auto; box-shadow: 0 2px 4px rgb(0 0 0 /10%);" >
+    <form style ="background-color: rgb(74, 76, 76); width: 30%;padding: 15px; text-align: center; margin:0 auto; box-shadow: 0 2px 4px rgb(0 0 0 /10%);" >
        
 
        
-       <input type="text" placeholder="Enter Your Name" style="width: 45%; padding: 2px;margin:2rem 0 2px  ; border-radius:2px solid #dddfe2 ;">
-       <input minlength="3" maxlength="18" type="password" placeholder=" Enter Your Surname" style="width: 45%; padding: 2px;margin: border-radius:2px solid #dddfe2 ;margin: 20px 5px;">
-       <input type= "email" minlength="7" maxlength="18" type="password" placeholder="Enter Email" style="width: 45% ; padding: 2px; border-radius:2px solid #dddfe2 ;">
+       <input type="text" placeholder="Enter Your Name" style="width: 45%; padding: 2px;margin:2rem 0 2px  ; border-radius:2px solid #dddfe2 ; padding: 6px 0 4px 10px;
+       border: 1px solid #cecece;
+       background: #F6F6f6;
+       border-radius: 8px;">
+       <input minlength="3" maxlength="18" type="password" placeholder=" Enter Your Surname" style="width: 45%; padding: 2px;margin: border-radius:2px solid #dddfe2 ;margin: 20px 5px;padding: 6px 0 4px 10px;
+       border: 1px solid #cecece;
+       background: #F6F6f6;
+       border-radius: 8px;">
+       <input type= "email" minlength="7" maxlength="18" type="password" placeholder="Enter Email" style="width: 45% ; padding: 2px; border-radius:2px solid #dddfe2 ; padding: 6px 0 4px 10px;
+       border: 1px solid #cecece;
+       background: #F6F6f6;
+       border-radius: 8px;">
        <select aria-label="Month" name="birthday_month" id="month" title="Month" class="_9407 _5dba _9hk6 _8esg">
         <option value="1" selected="1">January</option>
         <option value="2">February</option>
@@ -62,14 +71,24 @@
             <option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1973">1973</option>
             <option value="1972">1972</option><option value="1971">1971</option><option value="1970">1970</option><option value="1969">1969</option>
             <option value="1968">1968</option><option value="1967">1967</option><option value="1966">1966</option><option value="1965">1965</option></option></select>
-       <input minlength="7" maxlength="18" type="password" placeholder="Enter Your New Password" style="border-radius:1px solid #dddfe2  ; margin: 20px 5px;" >
-       <input minlength="7" maxlength="18" type="password" placeholder="Confirm password" style="border-radius:1px solid #dddfe2 ;  ">
+       <input minlength="7" maxlength="18" type="password" placeholder="Your New Password" style="border-radius:1px solid #dddfe2  ; margin: 20px 5px;padding: 6px 0 4px 10px;
+  border: 1px solid #cecece;
+  background: #F6F6f6;
+  border-radius: 8px;" >
+       <input minlength="7" maxlength="18" type="password" placeholder="Confirm password" style="border-radius:1px solid #dddfe2 ; padding: 6px 0 4px 10px;
+  border: 1px solid #cecece;
+  background: #F6F6f6;
+  border-radius: 8px; ">
        
        <input type="radio" name="gender" value="male" checked> Male</input>
        <input type="radio" name="gender" value="female"> Female</input>
        
-
-       <button style="width: 45%; color: white; background-color: blue; font-size: medium; " style="border-radius:1px solid #dddfe2 ; type="sumbit">Create</button>
+      
+       <input type="button" onclick="window.location.href = 'http://127.0.0.1:5555/forget-password.html';" 
+       value="CREATE" style= "width:45%; color: white; background-color: blue; font-size: medium; border-radius:1px solid #dddfe2 ; cursor: pointer  ; box-sizing: border-box; padding: 6px 0 4px 10px;
+       border: 1px solid #c5c3ca;
+       background: #190664;
+       border-radius: 8px;"></input>
       
     </form>
        
